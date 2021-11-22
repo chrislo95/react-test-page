@@ -1,6 +1,6 @@
 import catgun from './images/catgun.png';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <Router>
         <Navbar>
-          <Switch>
+          <Routes>
             <Route path='/' exact />
-          </Switch>
+          </Routes>
         </Navbar>
       </Router>
 
