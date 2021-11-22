@@ -12,7 +12,7 @@ function Navbar() {
                 <Link to="/" className="navbar-log">
                     WOW
                 </Link>
-                <font FontAwesomeIcon icon={faCoffee}></font> 
+                <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> 
             </div> 
         </nav>
        </>
