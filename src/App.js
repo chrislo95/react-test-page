@@ -6,6 +6,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p>
+          You are now detained. You will be taken to horny jail.
+          Follow the cat's orders and nothing will happen.
+        </p>
         <img src={catgun} className="lol-logo" alt="meowgun" height={300} width={300}/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
