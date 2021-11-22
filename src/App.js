@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+{/*import logo from './logo.svg';*/}
 import catgun from './images/catgun.png'
 import './App.css';
 
@@ -11,7 +11,7 @@ function App() {
           Follow the cat's orders and nothing will happen.
         </p>
         <img src={catgun} className="lol-logo" alt="meowgun" height={300} width={300}/>
-        <img src={logo} className="App-logo" alt="logo" />
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <p>
           Edit <code>src/App.js</code> and save to reload. re
         </p>
