@@ -18,9 +18,9 @@ function Navbar() {
                 <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
                 
 
-                <div className="menu-icon" onClick={handleClick}>
+                <button align="center" onClick={()=>{alert("clicked")}}>
                     <i className={click ? "fas faBars" : "fas faTimes"} />
-                </div> 
+                </button>
             </div> 
         </nav>
        </>
