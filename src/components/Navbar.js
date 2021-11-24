@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import { Link, useLinkClickHandler } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' // imports the main icon thingy
-import { faCoffee, faBars, faTimes, fas } from '@fortawesome/free-solid-svg-icons' // imports the actual icon from the icon pkg thingy
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // imports the main icon thingy
+import { faCoffee, faBars, faTimes, fas } from '@fortawesome/free-solid-svg-icons'; // imports the actual icon from the icon pkg thingy
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 
 function Navbar() {
@@ -16,11 +17,10 @@ function Navbar() {
                     WOW
                 </Link>
                 <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
-                
-
-                <button align="center" onClick={()=>{alert("clicked")}}>
-                    <i className={click ? "fas faBars" : "fas faTimes"} />
-                </button>
+                <div className="menu-icon" onClick={handleClick}>
+                    <FontAwesomeIcon icon={click ? faTimes : faBars} />
+                </div>
+                <FontAwesomeIcon icon={click ? faTimes : faBars} />
             </div> 
         </nav>
        </>
