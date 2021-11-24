@@ -21,9 +21,6 @@ function App() {
           Follow the cat's orders and nothing will happen.
         </p>
         <img src={catgun} className="lol-logo" alt="meowgun" height={300} width={300}/>
-        <p>
-          Edit <code>src/App.js</code> and save to reload. re
-        </p>
       </header>
     </div>
   );
