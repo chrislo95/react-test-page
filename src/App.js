@@ -18,8 +18,7 @@ function App() {
 
       <header className="App-header">
         <p>
-          You are now detained. You will be taken to horny jail.
-          Follow the cat's orders and nothing will happen.
+          Cat gun
         </p>
         <img src={catgun} className="lol-logo" alt="meowgun" height={300} width={300}/>
       </header>
