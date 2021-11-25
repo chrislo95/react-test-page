@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import { Link, useLinkClickHandler } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // imports the main icon thingy
-import { faCoffee, faBars, faTimes, } from '@fortawesome/free-solid-svg-icons'; // imports the actual icon from the icon pkg thingy
+import { faCoffee, faBars, faTimes } from '@fortawesome/free-solid-svg-icons'; // imports the actual icon from the icon pkg thingy
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { Button } from './Button';
 
 
 function Navbar() {
@@ -17,7 +18,6 @@ function Navbar() {
                 <Link to="/" className="navbar-log">
                     WOW
                 </Link>
-                <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
                 <div className="menu-icon" onClick={handleClick}>
                     <FontAwesomeIcon icon={click ? faTimes : faBars} />
                 </div>
@@ -27,7 +27,13 @@ function Navbar() {
                             Home
                         </Link>
                     </li>
+                    <li className='nav=item'>
+                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            Services
+                        </Link>
+                    </li>
                 </ul> 
+                {button && <Button buttonStyle='btn--outline'>services</Button>}
             </div> 
         </nav>
        </>
