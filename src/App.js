@@ -23,7 +23,9 @@ function App() {
           Cat gun
         </p>
         <img src={catgun} className="lol-logo" alt="meowgun" height={300} width={300}/>
-        <img src={chainsaw} alt='animestuff' height={300} width={300}/>
+
+        <p>Chainsaw</p>
+        <img src={chainsaw} className="lol-logo" alt='animestuff' height={300} width={300}/>
       </header>
     </div>
   );
