@@ -47,6 +47,12 @@ function Navbar() {
                             Services
                         </Link>
                     </li>
+                    <li className='nav=item'>
+                        <Link to='https://www.youtube.com/watch?v=HWS9G2WT42Q' className='nav-links' onClick={closeMobileMenu}>
+                            Charts
+                        </Link> 
+                        
+                    </li>
                 </ul> 
                 {button && <Button buttonStyle='btn--outline'>services</Button>}
             </div> 
