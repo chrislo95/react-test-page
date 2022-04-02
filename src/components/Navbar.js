@@ -31,24 +31,24 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-log" onClick={closeMobileMenu}>
-                    Home1 <FontAwesomeIcon icon={faCoffee} />
+                    Home <FontAwesomeIcon icon={faCoffee} />
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <FontAwesomeIcon icon={click ? faTimes : faBars} />
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav=item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
                     <li className='nav=item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                             Services
                         </Link>
                     </li>
                     <li className='nav=item'>
-                        <Link to='https://www.youtube.com/watch?v=HWS9G2WT42Q' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/Charts' className='nav-links' onClick={closeMobileMenu}>
                             Charts
                         </Link> 
                         
