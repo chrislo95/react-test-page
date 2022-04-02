@@ -1,6 +1,6 @@
 import React from 'react';
 import catgun from './images/catgun.png';
-import chainsaw from '/images/chainsaw.PNG';
+import chainsaw from './images/chainsaw.PNG';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
