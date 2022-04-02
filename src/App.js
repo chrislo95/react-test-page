@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navbar>
           <Routes>
-            <Route path='/' exact component={Home}/>
+            <Route path='/Charts' exact component={Home}/>
           </Routes>
         </Navbar>
       </Router>
@@ -25,7 +25,7 @@ function App() {
           Cat gun
         </p>
         <img src={catgun} className="lol-logo" alt="meowgun" height={300} width={300}/>
-        
+
         <p>Anime</p>
         <img src={kara} className="lol-logo" alt='animestuff' height={300} width={300}/>
         <img src={tsukihime} className="lol-logo" alt='animestuff' height={300} width={300}/>
