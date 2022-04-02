@@ -31,7 +31,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-log" onClick={closeMobileMenu}>
-                    WOW <FontAwesomeIcon icon={faCoffee} />
+                    Home <FontAwesomeIcon icon={faCoffee} />
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <FontAwesomeIcon icon={click ? faTimes : faBars} />
