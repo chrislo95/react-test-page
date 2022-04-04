@@ -1,6 +1,6 @@
 import React from 'react';
 import chainsaw from './src/images/chainsaw.PNG';
-import Navbar from './components/Navbar';
+import Navbar from './src/components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './Pages.css';
 
