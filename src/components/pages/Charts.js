@@ -2,9 +2,9 @@ import React from 'react';
 import chainsaw from './images/chainsaw.PNG';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
+import './src/App.css';
 
-function charts() {
+function Charts() {
 
     <div className="App">
       <Router>
@@ -26,3 +26,4 @@ function charts() {
 
 
 }
+export default Charts;
