@@ -1,5 +1,5 @@
 import React from 'react';
-import chainsaw from './images/chainsaw.PNG';
+import chainsaw from './src/images/chainsaw.PNG';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './src/App.css';
@@ -17,7 +17,7 @@ function Charts() {
 
       <header className="App-header">
         <p>
-          Chainsaw 
+          Chainsawman 
         </p>
         <img src={chainsaw} className="lol-logo" alt="chainsaw" height={300} width={300}/>
       </header>
