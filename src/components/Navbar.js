@@ -49,10 +49,9 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav=item'>
-                        <Link to='/Charts' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='./Charts' className='nav-links' onClick={closeMobileMenu}>
                             Charts
                         </Link> 
-                        
                     </li>
                 </ul> 
                 {button && <Button buttonStyle='btn--outline'>services</Button>}
