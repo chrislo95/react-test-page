@@ -2,7 +2,7 @@ import React from 'react';
 import chainsaw from './src/images/chainsaw.PNG';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './src/App.css';
+import './Pages.css';
 
 function Charts() {
 
