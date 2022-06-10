@@ -23,7 +23,7 @@ function App() {
 
       <header className="App-header">
         <p>
-          Cat gun
+          Catgun
         </p>
         <img src={catgun} className="lol-logo" alt="meowgun" height={300} width={300}/>
 
