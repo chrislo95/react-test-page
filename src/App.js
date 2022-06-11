@@ -4,7 +4,7 @@ import chainsaw from './images/chainsaw.PNG';
 import kara from './images/knk.png'
 import tsukihime from './images/tsukihime.png'
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 import Home from './components/pages/Home';
 import './App.css';
 import Charts from './components/pages/Charts'
@@ -15,9 +15,9 @@ function App() {
     <div className="App">
       <Router>
         <Navbar>
-          <Routes>
-            <Route path='/Charts' exact component={Home}/>
-          </Routes>
+          <Switch>
+            <Route path='/Charts' exact component={Charts}/>
+          </Switch>
         </Navbar>
       </Router>
 
