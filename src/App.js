@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 // import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 // import Home from './components/pages/Home';
+import Charts from './pages/Charts.js'
 import './App.css';
 // import Charts from './components/pages/Charts'
 
