@@ -19,6 +19,7 @@ function App() {
         <Navbar>
           <Routes>
             <Route path='/Charts' exact component={Charts}/>
+            <Charts />
           </Routes>
         </Navbar>
       </Router>
