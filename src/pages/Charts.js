@@ -7,7 +7,7 @@ function Charts() {
     return (
         <header className="App-header">
             <p>
-            Catgun
+            Catgu
             </p>
             <img src={catgun} className="lol-logo" alt="meowgun" height={300} width={300}/>
         </header>
