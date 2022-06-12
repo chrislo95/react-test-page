@@ -5,7 +5,7 @@ import kara from './images/knk.png'
 import tsukihime from './images/tsukihime.png'
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
-import Home from './components/pages/Home';
+// import Home from './components/pages/Home';
 import './App.css';
 // import Charts from './components/pages/Charts'
 
