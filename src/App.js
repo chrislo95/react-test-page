@@ -15,11 +15,13 @@ function App() {
   return (
 
     <div className="App">
+
       <Router>
         <Navbar>
           <Routes>
-            <Route path='/Charts' exact component={Charts}/>
-            <Charts />
+            <Route exact path='/Charts'>
+              <Charts />
+            </Route>
           </Routes>
         </Navbar>
       </Router>
