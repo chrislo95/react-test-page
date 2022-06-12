@@ -1,6 +1,6 @@
 import React from 'react';
 import './Charts.css';
-import catgun from './components/images/catgun.png';
+import catgun from '../images/catgun.png';
 
 
 
