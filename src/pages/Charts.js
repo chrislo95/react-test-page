@@ -1,11 +1,11 @@
 import React from 'react';
 import './Charts.css';
-import catgun from './images/catgun.png';
+import catgun from './components/images/catgun.png';
 
 
 
 function Charts(){
-    
+
     <header className="App-header">
         <p>
           Catgun
