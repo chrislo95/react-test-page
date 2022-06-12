@@ -9,7 +9,7 @@ function Charts() {
             <p>
             Catgu
             </p>
-            <img src={catgun} className="lol-logo" alt="meowgun" height={300} width={300}/>
+            <img src={catgun} className="lol-logo" alt="meowgun" height={200} width={200}/>
         </header>
     )
 }

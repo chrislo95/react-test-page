@@ -22,6 +22,9 @@ function App() {
             <Route exact path='/Charts'>
               <Charts />
             </Route>
+            <Route exact path='/'>
+              <App / >
+            </Route>
           </Routes>
         </Navbar>
       </Router>
