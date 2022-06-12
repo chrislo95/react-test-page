@@ -2,9 +2,7 @@ import React from 'react';
 import './Charts.css';
 import catgun from '../images/catgun.png';
 
-
-
-function Charts(){
+function Charts() {
 
     <header className="App-header">
         <p>
