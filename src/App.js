@@ -34,7 +34,7 @@ function App() {
         <img src={tsukihime} className="lol-logo" alt='animestuff' height={300} width={300}/>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
