@@ -3,7 +3,7 @@ import { Link, useLinkClickHandler } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // imports the main icon thingy
 import { faCoffee, faBars, faTimes } from '@fortawesome/free-solid-svg-icons'; // imports the actual icon from the icon pkg thingy
 import { Button } from './Button';
-import Charts from "./components/pages/Charts"
+// import Charts from "./components/pages/Charts"
 import './Navbar.css';
 
 function Navbar() {
